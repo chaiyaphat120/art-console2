@@ -13,8 +13,8 @@ const MainPage = (props) => {
         <ThemeProvider theme={theme}>
             <Grid container direction="row" className={styles.root}>
                 <Grid
-                    container
-                    item
+                    container={true}
+                    item={true}
                     xs={12}
                     sm={6}
                     direction="row"
@@ -25,8 +25,8 @@ const MainPage = (props) => {
                     </Grid>
                 </Grid>
                 <Grid
-                    container
-                    item
+                    container={true}
+                    item={true}
                     xs={12}
                     sm={6}
                     direction="row"
