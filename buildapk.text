@@ -1,0 +1,8 @@
+$ npm run build
+$ npm install -g @ionic/cli
+$ npm i -g cordova-res
+$ npm install @capacitor/core --save
+
+$ ionic capacitor add android
+$ ionic capacitor sync android
+$ npx cap open android

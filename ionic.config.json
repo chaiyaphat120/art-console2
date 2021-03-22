@@ -1,0 +1,7 @@
+{
+  "name": "art-console",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
