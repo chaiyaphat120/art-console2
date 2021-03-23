@@ -15,7 +15,7 @@ const MainPage = (props) => {
             <Grid container direction="row" className={styles.root}>
                 <Grid
                     container={true}
-                    item={true}
+                    item={true}gi
                     xs={12}
                     sm={6}
                     direction="row"
