@@ -9,6 +9,7 @@ import { useStyles } from "./MainPageStyle"
 const MainPage = (props) => {
     const styles = useStyles()
     const [state] = useContext(Context)
+    
     return (
         <ThemeProvider theme={theme}>
             <Grid container direction="row" className={styles.root}>
